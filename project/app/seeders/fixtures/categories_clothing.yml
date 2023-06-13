@@ -1,0 +1,1695 @@
+- id: 1
+  parent_id: null
+  level: 1
+  name_en: Ladies' fashion
+  name_ja: レディース
+- id: 2
+  parent_id: 1
+  level: 2
+  name_en: Ladies' Tops
+  name_ja: レディース トップス
+- id: 3
+  parent_id: 2
+  level: 3
+  name_en: T-shirts (short sleeve/no sleeve)
+  name_ja: Tシャツ(半袖/袖なし)
+- id: 4
+  parent_id: 2
+  level: 3
+  name_en: T-shirts (long sleeve)
+  name_ja: Tシャツ(長袖/七分)
+- id: 5
+  parent_id: 2
+  level: 3
+  name_en: Shirts and blouses (short sleeve/no sleeve)
+  name_ja: シャツ/ブラウス(半袖/袖なし)
+- id: 6
+  parent_id: 2
+  level: 3
+  name_en: Shirts and blouses (long sleeve)
+  name_ja: シャツ/ブラウス(長袖/七分)
+- id: 7
+  parent_id: 2
+  level: 3
+  name_en: Knitted tops (short sleeve/no sleeve)
+  name_ja: カットソー(半袖/袖なし)
+- id: 8
+  parent_id: 2
+  level: 3
+  name_en: Knitted tops (long sleeve)
+  name_ja: カットソー(長袖/七分)
+- id: 9
+  parent_id: 2
+  level: 3
+  name_en: Sweaters
+  name_ja: ニット/セーター
+- id: 10
+  parent_id: 2
+  level: 3
+  name_en: Cardigans
+  name_ja: カーディガン
+- id: 11
+  parent_id: 2
+  level: 3
+  name_en: Hoodies
+  name_ja: パーカー
+- id: 12
+  parent_id: 2
+  level: 3
+  name_en: Sweatshirts
+  name_ja: トレーナー/スウェット
+- id: 13
+  parent_id: 2
+  level: 3
+  name_en: Tunics
+  name_ja: チュニック
+- id: 14
+  parent_id: 2
+  level: 3
+  name_en: Tank tops
+  name_ja: タンクトップ
+- id: 15
+  parent_id: 2
+  level: 3
+  name_en: Tube tops
+  name_ja: ベアトップ/チューブトップ
+- id: 16
+  parent_id: 2
+  level: 3
+  name_en: Camisoles
+  name_ja: キャミソール
+- id: 17
+  parent_id: 2
+  level: 3
+  name_en: Vests
+  name_ja: ベスト/ジレ
+- id: 18
+  parent_id: 2
+  level: 3
+  name_en: Polo shirts
+  name_ja: ポロシャツ
+- id: 19
+  parent_id: 2
+  level: 3
+  name_en: Shrugs
+  name_ja: ボレロ
+- id: 20
+  parent_id: 2
+  level: 3
+  name_en: Two-piece top sets
+  name_ja: アンサンブル
+- id: 21
+  parent_id: 2
+  level: 3
+  name_en: Halterneck tops
+  name_ja: ホルターネック
+- id: 22
+  parent_id: 2
+  level: 3
+  name_en: Others
+  name_ja: その他
+- id: 23
+  parent_id: 1
+  level: 2
+  name_en: Ladies' Outerwear
+  name_ja: レディース ジャケット/アウター
+- id: 24
+  parent_id: 23
+  level: 3
+  name_en: Collarless jackets
+  name_ja: ノーカラージャケット
+- id: 25
+  parent_id: 23
+  level: 3
+  name_en: Denim jackets
+  name_ja: Gジャン/デニムジャケット
+- id: 26
+  parent_id: 23
+  level: 3
+  name_en: Biker jackets
+  name_ja: ライダースジャケット
+- id: 27
+  parent_id: 23
+  level: 3
+  name_en: Military jackets
+  name_ja: ミリタリージャケット
+- id: 28
+  parent_id: 23
+  level: 3
+  name_en: Nylon jackets
+  name_ja: ナイロンジャケット
+- id: 29
+  parent_id: 23
+  level: 3
+  name_en: Blousons
+  name_ja: ブルゾン
+- id: 30
+  parent_id: 23
+  level: 3
+  name_en: Gilets
+  name_ja: ダウンベスト
+- id: 31
+  parent_id: 23
+  level: 3
+  name_en: Down jackets
+  name_ja: ダウンジャケット
+- id: 32
+  parent_id: 23
+  level: 3
+  name_en: Down coats
+  name_ja: ダウンコート
+- id: 33
+  parent_id: 23
+  level: 3
+  name_en: Long coats
+  name_ja: ロングコート
+- id: 34
+  parent_id: 23
+  level: 3
+  name_en: Fur coats
+  name_ja: 毛皮/ファーコート
+- id: 35
+  parent_id: 23
+  level: 3
+  name_en: Duffle coats
+  name_ja: ダッフルコート
+- id: 36
+  parent_id: 23
+  level: 3
+  name_en: Trench coats
+  name_ja: トレンチコート
+- id: 37
+  parent_id: 23
+  level: 3
+  name_en: Peacoats
+  name_ja: ピーコート
+- id: 38
+  parent_id: 23
+  level: 3
+  name_en: Chesterfield coats
+  name_ja: チェスターコート
+- id: 39
+  parent_id: 23
+  level: 3
+  name_en: Knitted coats
+  name_ja: ニットコート
+- id: 40
+  parent_id: 23
+  level: 3
+  name_en: Mouton coats
+  name_ja: ムートンコート
+- id: 41
+  parent_id: 23
+  level: 3
+  name_en: Parka jackets
+  name_ja: モッズコート
+- id: 42
+  parent_id: 23
+  level: 3
+  name_en: Spring coats & jackets
+  name_ja: スプリングコート
+- id: 43
+  parent_id: 23
+  level: 3
+  name_en: Ponchos
+  name_ja: ポンチョ
+- id: 44
+  parent_id: 23
+  level: 3
+  name_en: Varsity jackets
+  name_ja: スタジャン
+- id: 45
+  parent_id: 23
+  level: 3
+  name_en: Sukajans / Souvenir jackets
+  name_ja: スカジャン
+- id: 46
+  parent_id: 23
+  level: 3
+  name_en: Raincoats
+  name_ja: レインコート
+- id: 47
+  parent_id: 23
+  level: 3
+  name_en: Others
+  name_ja: その他
+- id: 48
+  parent_id: 1
+  level: 2
+  name_en: Dresses
+  name_ja: ワンピース
+- id: 49
+  parent_id: 48
+  level: 3
+  name_en: Mini dresses
+  name_ja: ミニワンピース
+- id: 50
+  parent_id: 48
+  level: 3
+  name_en: Midi dresses
+  name_ja: ひざ丈ワンピース
+- id: 51
+  parent_id: 48
+  level: 3
+  name_en: Maxi dresses
+  name_ja: ロングワンピース/マキシワンピース
+- id: 52
+  parent_id: 48
+  level: 3
+  name_en: Others
+  name_ja: その他
+- id: 53
+  parent_id: 1
+  level: 2
+  name_en: Ladies' Bottoms
+  name_ja: レディース パンツ
+- id: 54
+  parent_id: 53
+  level: 3
+  name_en: Denim / Jeans
+  name_ja: デニム/ジーンズ
+- id: 55
+  parent_id: 53
+  level: 3
+  name_en: Shorts
+  name_ja: ショートパンツ
+- id: 56
+  parent_id: 53
+  level: 3
+  name_en: Culottes
+  name_ja: キュロット
+- id: 57
+  parent_id: 53
+  level: 3
+  name_en: Half pants
+  name_ja: ハーフパンツ
+- id: 58
+  parent_id: 53
+  level: 3
+  name_en: Cropped pants
+  name_ja: クロップドパンツ
+- id: 59
+  parent_id: 53
+  level: 3
+  name_en: Casual pants
+  name_ja: カジュアルパンツ
+- id: 60
+  parent_id: 53
+  level: 3
+  name_en: Zouave pants
+  name_ja: サルエルパンツ
+- id: 61
+  parent_id: 53
+  level: 3
+  name_en: Work pants / Cargo pants
+  name_ja: ワークパンツ/カーゴパンツ
+- id: 62
+  parent_id: 53
+  level: 3
+  name_en: Chinos
+  name_ja: チノパン
+- id: 63
+  parent_id: 53
+  level: 3
+  name_en: Overalls
+  name_ja: サロペット/オーバーオール
+- id: 64
+  parent_id: 53
+  level: 3
+  name_en: Skinny pants
+  name_ja: スキニーパンツ
+- id: 65
+  parent_id: 53
+  level: 3
+  name_en: Baggy pants
+  name_ja: バギーパンツ
+- id: 66
+  parent_id: 53
+  level: 3
+  name_en: Others
+  name_ja: その他
+- id: 67
+  parent_id: 1
+  level: 2
+  name_en: Skirts
+  name_ja: スカート
+- id: 68
+  parent_id: 67
+  level: 3
+  name_en: Mini skirts
+  name_ja: ミニスカート
+- id: 69
+  parent_id: 67
+  level: 3
+  name_en: Midi skirts
+  name_ja: ひざ丈スカート
+- id: 70
+  parent_id: 67
+  level: 3
+  name_en: Maxi skirts
+  name_ja: ロングスカート
+- id: 71
+  parent_id: 67
+  level: 3
+  name_en: Others
+  name_ja: その他
+- id: 72
+  parent_id: 1
+  level: 2
+  name_en: Ladies' Bags
+  name_ja: レディース バッグ
+- id: 73
+  parent_id: 72
+  level: 3
+  name_en: Shoulder bags
+  name_ja: ショルダーバッグ
+- id: 74
+  parent_id: 72
+  level: 3
+  name_en: Tote bags
+  name_ja: トートバッグ
+- id: 75
+  parent_id: 72
+  level: 3
+  name_en: Hand bags
+  name_ja: ハンドバッグ
+- id: 76
+  parent_id: 72
+  level: 3
+  name_en: Backpacks / Rucksacks
+  name_ja: リュック/バックパック
+- id: 77
+  parent_id: 72
+  level: 3
+  name_en: Clutch bags
+  name_ja: クラッチバッグ
+- id: 78
+  parent_id: 72
+  level: 3
+  name_en: Boston bags
+  name_ja: ボストンバッグ
+- id: 79
+  parent_id: 72
+  level: 3
+  name_en: Suitcases & travel bags
+  name_ja: スーツケース/キャリーバッグ
+- id: 80
+  parent_id: 72
+  level: 3
+  name_en: Cross-body bags & Waist bags
+  name_ja: ボディバッグ/ウエストポーチ
+- id: 81
+  parent_id: 72
+  level: 3
+  name_en: Messenger bags
+  name_ja: メッセンジャーバッグ
+- id: 82
+  parent_id: 72
+  level: 3
+  name_en: Straw bags
+  name_ja: かごバッグ/ストローバッグ
+- id: 83
+  parent_id: 72
+  level: 3
+  name_en: Shopping bags
+  name_ja: ショップ袋
+- id: 84
+  parent_id: 72
+  level: 3
+  name_en: Eco bags
+  name_ja: エコバッグ
+- id: 85
+  parent_id: 72
+  level: 3
+  name_en: Others
+  name_ja: その他
+- id: 86
+  parent_id: 1
+  level: 2
+  name_en: Ladies' Accesories
+  name_ja: レディース ファッション小物
+- id: 87
+  parent_id: 86
+  level: 3
+  name_en: Wallets
+  name_ja: 財布
+- id: 88
+  parent_id: 86
+  level: 3
+  name_en: Card holders
+  name_ja: 名刺入れ/定期入れ
+- id: 89
+  parent_id: 86
+  level: 3
+  name_en: Coin purses
+  name_ja: コインケース
+- id: 90
+  parent_id: 86
+  level: 3
+  name_en: Pouches
+  name_ja: ポーチ
+- id: 91
+  parent_id: 86
+  level: 3
+  name_en: Glasses / Sunglasses
+  name_ja: サングラス/メガネ
+- id: 92
+  parent_id: 86
+  level: 3
+  name_en: Notebooks
+  name_ja: 手帳
+- id: 93
+  parent_id: 86
+  level: 3
+  name_en: Keyholders
+  name_ja: キーホルダー
+- id: 94
+  parent_id: 86
+  level: 3
+  name_en: Handkerchieves
+  name_ja: ハンカチ
+- id: 95
+  parent_id: 86
+  level: 3
+  name_en: Bandanas
+  name_ja: バンダナ/スカーフ
+- id: 96
+  parent_id: 86
+  level: 3
+  name_en: Scarves
+  name_ja: マフラー
+- id: 97
+  parent_id: 86
+  level: 3
+  name_en: Shawls & Stoles
+  name_ja: ストール/ショール/パシュミナ
+- id: 98
+  parent_id: 86
+  level: 3
+  name_en: Neck warmers
+  name_ja: ネックウォーマー
+- id: 99
+  parent_id: 86
+  level: 3
+  name_en: Gloves
+  name_ja: 手袋
+- id: 100
+  parent_id: 86
+  level: 3
+  name_en: Earmuffs
+  name_ja: イヤーマフ
+- id: 101
+  parent_id: 86
+  level: 3
+  name_en: Belts
+  name_ja: ベルト
+- id: 102
+  parent_id: 86
+  level: 3
+  name_en: Suspenders
+  name_ja: サスペンダー
+- id: 103
+  parent_id: 86
+  level: 3
+  name_en: Ties
+  name_ja: ネクタイ
+- id: 104
+  parent_id: 86
+  level: 3
+  name_en: Umbrellas
+  name_ja: 傘
+- id: 105
+  parent_id: 86
+  level: 3
+  name_en: Snoods
+  name_ja: スヌード
+- id: 106
+  parent_id: 86
+  level: 3
+  name_en: Key cases
+  name_ja: キーケース
+- id: 107
+  parent_id: 86
+  level: 3
+  name_en: Compact mirrors
+  name_ja: ミラー
+- id: 108
+  parent_id: 86
+  level: 3
+  name_en: Others
+  name_ja: その他
+- id: 109
+  parent_id: 1
+  level: 2
+  name_en: Ladies' Watches
+  name_ja: レディース 時計
+- id: 110
+  parent_id: 109
+  level: 3
+  name_en: Analog wristwatches
+  name_ja: 腕時計(アナログ)
+- id: 111
+  parent_id: 109
+  level: 3
+  name_en: Digital wristwatches
+  name_ja: 腕時計(デジタル)
+- id: 112
+  parent_id: 109
+  level: 3
+  name_en: Rubber bands
+  name_ja: ラバーベルト
+- id: 113
+  parent_id: 109
+  level: 3
+  name_en: Leather bands
+  name_ja: レザーベルト
+- id: 114
+  parent_id: 109
+  level: 3
+  name_en: Metallic bands
+  name_ja: 金属ベルト
+- id: 115
+  parent_id: 109
+  level: 3
+  name_en: Others
+  name_ja: その他
+- id: 116
+  parent_id: 1
+  level: 2
+  name_en: Ladies' Shoes
+  name_ja: レディース 靴/シューズ
+- id: 117
+  parent_id: 116
+  level: 3
+  name_en: Pumps
+  name_ja: ハイヒール/パンプス
+- id: 118
+  parent_id: 116
+  level: 3
+  name_en: Boots
+  name_ja: ブーツ
+- id: 119
+  parent_id: 116
+  level: 3
+  name_en: Ankle boots
+  name_ja: ブーティ
+- id: 120
+  parent_id: 116
+  level: 3
+  name_en: Sneakers
+  name_ja: スニーカー
+- id: 121
+  parent_id: 116
+  level: 3
+  name_en: Slip-ons & Moccasins
+  name_ja: スリッポン/モカシン
+- id: 122
+  parent_id: 116
+  level: 3
+  name_en: Sandals
+  name_ja: サンダル
+- id: 123
+  parent_id: 116
+  level: 3
+  name_en: Loafers
+  name_ja: ローファー/革靴
+- id: 124
+  parent_id: 116
+  level: 3
+  name_en: Ballet shoes
+  name_ja: バレエシューズ
+- id: 125
+  parent_id: 116
+  level: 3
+  name_en: Rain boots
+  name_ja: レインブーツ/長靴
+- id: 126
+  parent_id: 116
+  level: 3
+  name_en: Beach sandals & flip-flops
+  name_ja: ビーチサンダル
+- id: 127
+  parent_id: 116
+  level: 3
+  name_en: Mules
+  name_ja: ミュール
+- id: 128
+  parent_id: 116
+  level: 3
+  name_en: Others
+  name_ja: その他
+- id: 129
+  parent_id: 1
+  level: 2
+  name_en: Ladies' Jewelry
+  name_ja: レディース アクセサリー
+- id: 130
+  parent_id: 129
+  level: 3
+  name_en: Necklaces
+  name_ja: ネックレス
+- id: 131
+  parent_id: 129
+  level: 3
+  name_en: Earrings
+  name_ja: イヤリング / ピアス
+- id: 132
+  parent_id: 129
+  level: 3
+  name_en: Rings
+  name_ja: リング(指輪)
+- id: 133
+  parent_id: 129
+  level: 3
+  name_en: Bracelets & bangles
+  name_ja: ブレスレット/バングル
+- id: 134
+  parent_id: 129
+  level: 3
+  name_en: Brooches & corsages
+  name_ja: ブローチ/コサージュ
+- id: 135
+  parent_id: 129
+  level: 3
+  name_en: Removable collars
+  name_ja: つけ襟
+- id: 136
+  parent_id: 129
+  level: 3
+  name_en: Anklets
+  name_ja: アンクレット
+- id: 137
+  parent_id: 129
+  level: 3
+  name_en: Ear cuffs
+  name_ja: イヤーカフ
+- id: 138
+  parent_id: 129
+  level: 3
+  name_en: Charm bracelets & amulets
+  name_ja: チャーム
+- id: 139
+  parent_id: 129
+  level: 3
+  name_en: Others
+  name_ja: その他
+- id: 140
+  parent_id: 1
+  level: 2
+  name_en: Hair accesories
+  name_ja: ヘアアクセサリー
+- id: 141
+  parent_id: 140
+  level: 3
+  name_en: Hairpins
+  name_ja: ヘアピン
+- id: 142
+  parent_id: 140
+  level: 3
+  name_en: Scrunchies
+  name_ja: ヘアゴム/シュシュ
+- id: 143
+  parent_id: 140
+  level: 3
+  name_en: Hair bands
+  name_ja: ヘアバンド
+- id: 144
+  parent_id: 140
+  level: 3
+  name_en: Headbands / diadems / crowns
+  name_ja: カチューシャ
+- id: 145
+  parent_id: 140
+  level: 3
+  name_en: Hairclips
+  name_ja: バレッタ/ヘアクリップ
+- id: 146
+  parent_id: 140
+  level: 3
+  name_en: Others
+  name_ja: その他
+- id: 147
+  parent_id: 1
+  level: 2
+  name_en: Ladies' Japanese traditional clothing
+  name_ja: レディース 着物/浴衣
+- id: 148
+  parent_id: 147
+  level: 3
+  name_en: Yukatas
+  name_ja: 浴衣
+- id: 149
+  parent_id: 147
+  level: 3
+  name_en: Kimonos
+  name_ja: 着物
+- id: 150
+  parent_id: 147
+  level: 3
+  name_en: Furisode kimonos
+  name_ja: 振袖
+- id: 151
+  parent_id: 147
+  level: 3
+  name_en: Kimono accesories
+  name_ja: 和装小物
+- id: 152
+  parent_id: 147
+  level: 3
+  name_en: Yukata obis / sashes
+  name_ja: 浴衣帯
+- id: 153
+  parent_id: 147
+  level: 3
+  name_en: Kimono obis / wide sashes
+  name_ja: 帯
+- id: 154
+  parent_id: 147
+  level: 3
+  name_en: Geta & zori sandals
+  name_ja: 下駄/草履
+- id: 155
+  parent_id: 147
+  level: 3
+  name_en: Others
+  name_ja: その他
+- id: 156
+  parent_id: 1
+  level: 2
+  name_en: Ladies' Beachwear
+  name_ja: レディース ビーチウエア
+- id: 157
+  parent_id: 156
+  level: 3
+  name_en: Bikinis
+  name_ja: 水着（ビキニ）
+- id: 158
+  parent_id: 156
+  level: 3
+  name_en: One-piece swimsuits
+  name_ja: 水着（ワンピース）
+- id: 159
+  parent_id: 156
+  level: 3
+  name_en: Cover-ups
+  name_ja: ビーチドレス
+- id: 160
+  parent_id: 1
+  level: 2
+  name_en: Ladies' Formal clothing
+  name_ja: フォーマル/ドレス
+- id: 161
+  parent_id: 160
+  level: 3
+  name_en: Suits & blazers
+  name_ja: スーツ/テーラードジャケット
+- id: 162
+  parent_id: 160
+  level: 3
+  name_en: Wedding dresses
+  name_ja: ウェディングドレス
+- id: 163
+  parent_id: 160
+  level: 3
+  name_en: Long dresses / evening gowns
+  name_ja: ロングドレス
+- id: 164
+  parent_id: 160
+  level: 3
+  name_en: Cocktail & party midi dresses
+  name_ja: ミディアムドレス
+- id: 165
+  parent_id: 160
+  level: 3
+  name_en: Cocktail & party mini dresses
+  name_ja: ミニドレス
+- id: 166
+  parent_id: 160
+  level: 3
+  name_en: Mourning dresses
+  name_ja: 礼服/喪服
+- id: 167
+  parent_id: 160
+  level: 3
+  name_en: Suits
+  name_ja: スーツ
+- id: 168
+  parent_id: 160
+  level: 3
+  name_en: Others
+  name_ja: その他
+- id: 169
+  parent_id: 1
+  level: 2
+  name_en: Ladies' Hats
+  name_ja: レディース 帽子
+- id: 170
+  parent_id: 169
+  level: 3
+  name_en: Caps
+  name_ja: キャップ
+- id: 171
+  parent_id: 169
+  level: 3
+  name_en: Knitted hats / beanies
+  name_ja: ニット帽/ビーニー
+- id: 172
+  parent_id: 169
+  level: 3
+  name_en: Hats
+  name_ja: ハット
+- id: 173
+  parent_id: 169
+  level: 3
+  name_en: Hunting caps & berets
+  name_ja: ハンチング/ベレー帽
+- id: 174
+  parent_id: 169
+  level: 3
+  name_en: Casquettes
+  name_ja: キャスケット
+- id: 175
+  parent_id: 169
+  level: 3
+  name_en: Straw hats
+  name_ja: 麦わら帽子/ストローハット
+- id: 176
+  parent_id: 169
+  level: 3
+  name_en: Others
+  name_ja: その他
+- id: 177
+  parent_id: 1
+  level: 2
+  name_en: Ladies' Pajamas & Loungewear
+  name_ja: レディース ルームウェア/パジャマ
+- id: 178
+  parent_id: 177
+  level: 3
+  name_en: Nightgowns
+  name_ja: ネグリジェ/ナイトガウン
+- id: 179
+  parent_id: 177
+  level: 3
+  name_en: Robes
+  name_ja: ローブ
+- id: 180
+  parent_id: 177
+  level: 3
+  name_en: Pajamas
+  name_ja: パジャマ
+- id: 181
+  parent_id: 177
+  level: 3
+  name_en: Others
+  name_ja: その他
+- id: 182
+  parent_id: 1
+  level: 2
+  name_en: Ladies' Underwear / Lingerie
+  name_ja: レディース 下着/アンダーウェア
+- id: 183
+  parent_id: 182
+  level: 3
+  name_en: Bras
+  name_ja: ブラ
+- id: 184
+  parent_id: 182
+  level: 3
+  name_en: Panties / Briefs / Thongs
+  name_ja: ショーツ
+- id: 185
+  parent_id: 182
+  level: 3
+  name_en: Underwear sets
+  name_ja: ブラ&ショーツセット
+- id: 186
+  parent_id: 182
+  level: 3
+  name_en: Bodysuits
+  name_ja: ボディスーツ
+- id: 187
+  parent_id: 182
+  level: 3
+  name_en: Undershirts
+  name_ja: アンダーシャツ/防寒インナー
+- id: 188
+  parent_id: 182
+  level: 3
+  name_en: Socks
+  name_ja: 靴下/ソックス
+- id: 189
+  parent_id: 182
+  level: 3
+  name_en: Tights / Stockings
+  name_ja: タイツ/ストッキング
+- id: 190
+  parent_id: 182
+  level: 3
+  name_en: Leggings
+  name_ja: レギンス/スパッツ
+- id: 191
+  parent_id: 182
+  level: 3
+  name_en: Others
+  name_ja: その他
+- id: 192
+  parent_id: 1
+  level: 2
+  name_en: Wigs & extensions
+  name_ja: ウィッグ/エクステ
+- id: 193
+  parent_id: 192
+  level: 3
+  name_en: Long straight
+  name_ja: ロングストレート
+- id: 194
+  parent_id: 192
+  level: 3
+  name_en: Long curly
+  name_ja: ロングカール
+- id: 195
+  parent_id: 192
+  level: 3
+  name_en: Short straight
+  name_ja: ショートストレート
+- id: 196
+  parent_id: 192
+  level: 3
+  name_en: Short curly
+  name_ja: ショートカール
+- id: 197
+  parent_id: 192
+  level: 3
+  name_en: Bang wigs
+  name_ja: 前髪ウィッグ
+- id: 198
+  parent_id: 192
+  level: 3
+  name_en: Others
+  name_ja: その他
+- id: 199
+  parent_id: null
+  level: 1
+  name_en: Men's fashion
+  name_ja: メンズ
+- id: 200
+  parent_id: 199
+  level: 2
+  name_en: Mens' Tops
+  name_ja: メンズ トップス
+- id: 201
+  parent_id: 200
+  level: 3
+  name_en: T-shirts & knitted tops (short sleeve/no sleeve)
+  name_ja: Tシャツ/カットソー(半袖/袖なし)
+- id: 202
+  parent_id: 200
+  level: 3
+  name_en: T-shirts & knitted tops (long sleeve)
+  name_ja: Tシャツ/カットソー(七分/長袖)
+- id: 203
+  parent_id: 200
+  level: 3
+  name_en: Shirts
+  name_ja: シャツ
+- id: 338
+  parent_id: 200
+  level: 3
+  name_en: Sweaters
+  name_ja: ニット/セーター
+- id: 204
+  parent_id: 200
+  level: 3
+  name_en: Hoodies
+  name_ja: パーカー
+- id: 205
+  parent_id: 200
+  level: 3
+  name_en: Cardigans
+  name_ja: カーディガン
+- id: 206
+  parent_id: 200
+  level: 3
+  name_en: Polo shirts
+  name_ja: ポロシャツ
+- id: 207
+  parent_id: 200
+  level: 3
+  name_en: Tank tops
+  name_ja: タンクトップ
+- id: 208
+  parent_id: 200
+  level: 3
+  name_en: Sweatshirts
+  name_ja: スウェット
+- id: 209
+  parent_id: 200
+  level: 3
+  name_en: Vests
+  name_ja: ベスト
+- id: 210
+  parent_id: 200
+  level: 3
+  name_en: Others
+  name_ja: その他
+- id: 211
+  parent_id: 199
+  level: 2
+  name_en: Mens' Outerwear
+  name_ja: メンズ ジャケット/アウター
+- id: 212
+  parent_id: 211
+  level: 3
+  name_en: Collarless jackets
+  name_ja: ノーカラージャケット
+- id: 213
+  parent_id: 211
+  level: 3
+  name_en: Denim jackets
+  name_ja: Gジャン/デニムジャケット
+- id: 214
+  parent_id: 211
+  level: 3
+  name_en: Leather jackets
+  name_ja: レザージャケット
+- id: 215
+  parent_id: 211
+  level: 3
+  name_en: Down jackets
+  name_ja: ダウンジャケット
+- id: 216
+  parent_id: 211
+  level: 3
+  name_en: Biker jackets
+  name_ja: ライダースジャケット
+- id: 217
+  parent_id: 211
+  level: 3
+  name_en: Military jackets
+  name_ja: ミリタリージャケット
+- id: 218
+  parent_id: 211
+  level: 3
+  name_en: Nylon jackets
+  name_ja: ナイロンジャケット
+- id: 219
+  parent_id: 211
+  level: 3
+  name_en: Bomber / flight jackets
+  name_ja: フライトジャケット
+- id: 220
+  parent_id: 211
+  level: 3
+  name_en: Duffle coats
+  name_ja: ダッフルコート
+- id: 221
+  parent_id: 211
+  level: 3
+  name_en: Pea coats
+  name_ja: ピーコート
+- id: 222
+  parent_id: 211
+  level: 3
+  name_en: Chesterfield coats
+  name_ja: チェスターコート
+- id: 223
+  parent_id: 211
+  level: 3
+  name_en: Bal collar coats
+  name_ja: ステンカラーコート
+- id: 224
+  parent_id: 211
+  level: 3
+  name_en: Trench coats
+  name_ja: トレンチコート
+- id: 225
+  parent_id: 211
+  level: 3
+  name_en: Parka jackets
+  name_ja: モッズコート
+- id: 226
+  parent_id: 211
+  level: 3
+  name_en: Varsity jackets
+  name_ja: スタジャン
+- id: 227
+  parent_id: 211
+  level: 3
+  name_en: Sukajans / Souvenir jackets
+  name_ja: スカジャン
+- id: 228
+  parent_id: 211
+  level: 3
+  name_en: Blousons
+  name_ja: ブルゾン
+- id: 229
+  parent_id: 211
+  level: 3
+  name_en: Ponchos
+  name_ja: ポンチョ
+- id: 230
+  parent_id: 211
+  level: 3
+  name_en: Mountain parka jackets
+  name_ja: マウンテンパーカー
+- id: 231
+  parent_id: 211
+  level: 3
+  name_en: Coveralls
+  name_ja: カバーオール
+- id: 232
+  parent_id: 211
+  level: 3
+  name_en: Gilets
+  name_ja: ダウンベスト
+- id: 233
+  parent_id: 211
+  level: 3
+  name_en: Raincoats
+  name_ja: レインコート
+- id: 234
+  parent_id: 211
+  level: 3
+  name_en: Others
+  name_ja: その他
+- id: 235
+  parent_id: 199
+  level: 2
+  name_en: Mens' Bottoms
+  name_ja: メンズ パンツ
+- id: 236
+  parent_id: 235
+  level: 3
+  name_en: Denim / Jeans
+  name_ja: デニム/ジーンズ
+- id: 237
+  parent_id: 235
+  level: 3
+  name_en: Work pants / cargo pants
+  name_ja: ワークパンツ/カーゴパンツ
+- id: 238
+  parent_id: 235
+  level: 3
+  name_en: Slacks
+  name_ja: スラックス
+- id: 239
+  parent_id: 235
+  level: 3
+  name_en: Chino pants
+  name_ja: チノパン
+- id: 240
+  parent_id: 235
+  level: 3
+  name_en: Short pants
+  name_ja: ショートパンツ
+- id: 241
+  parent_id: 235
+  level: 3
+  name_en: Zouave pants
+  name_ja: サルエルパンツ
+- id: 242
+  parent_id: 235
+  level: 3
+  name_en: Overalls
+  name_ja: サロペット/オーバーオール
+- id: 243
+  parent_id: 235
+  level: 3
+  name_en: Others
+  name_ja: その他
+- id: 244
+  parent_id: 199
+  level: 2
+  name_en: Mens' Shoes
+  name_ja: メンズ 靴/シューズ
+- id: 245
+  parent_id: 244
+  level: 3
+  name_en: Sneakers
+  name_ja: スニーカー
+- id: 246
+  parent_id: 244
+  level: 3
+  name_en: Sandals
+  name_ja: サンダル
+- id: 247
+  parent_id: 244
+  level: 3
+  name_en: Boots
+  name_ja: ブーツ
+- id: 248
+  parent_id: 244
+  level: 3
+  name_en: Ankle boots
+  name_ja: ブーティ
+- id: 249
+  parent_id: 244
+  level: 3
+  name_en: Dress shoes
+  name_ja: ドレス/ビジネス
+- id: 250
+  parent_id: 244
+  level: 3
+  name_en: Slip-ons & Moccasins
+  name_ja: スリッポン/モカシン
+- id: 251
+  parent_id: 244
+  level: 3
+  name_en: Beach sandals & flip-flops
+  name_ja: ビーチサンダル
+- id: 252
+  parent_id: 244
+  level: 3
+  name_en: Rain boots
+  name_ja: 長靴/レインシューズ
+- id: 253
+  parent_id: 244
+  level: 3
+  name_en: Loafers
+  name_ja: ローファー/革靴
+- id: 254
+  parent_id: 244
+  level: 3
+  name_en: Deck shoes
+  name_ja: デッキシューズ
+- id: 255
+  parent_id: 244
+  level: 3
+  name_en: Others
+  name_ja: その他
+- id: 256
+  parent_id: 199
+  level: 2
+  name_en: Mens' Bags
+  name_ja: メンズ バッグ
+- id: 257
+  parent_id: 256
+  level: 3
+  name_en: Shoulder bags
+  name_ja: ショルダーバッグ
+- id: 258
+  parent_id: 256
+  level: 3
+  name_en: Tote bags
+  name_ja: トートバッグ
+- id: 259
+  parent_id: 256
+  level: 3
+  name_en: Backpacks / Rucksacks
+  name_ja: リュック/バックパック
+- id: 260
+  parent_id: 256
+  level: 3
+  name_en: Clutch bags
+  name_ja: クラッチバッグ
+- id: 261
+  parent_id: 256
+  level: 3
+  name_en: Boston bags
+  name_ja: ボストンバッグ
+- id: 262
+  parent_id: 256
+  level: 3
+  name_en: Suitcases & travel bags
+  name_ja: スーツケース/キャリーバッグ
+- id: 263
+  parent_id: 256
+  level: 3
+  name_en: Cross-body bags & Waist bags
+  name_ja: ボディバッグ/ウエストポーチ
+- id: 264
+  parent_id: 256
+  level: 3
+  name_en: Messenger bags
+  name_ja: メッセンジャーバッグ
+- id: 265
+  parent_id: 256
+  level: 3
+  name_en: Eco bags
+  name_ja: エコバッグ
+- id: 266
+  parent_id: 256
+  level: 3
+  name_en: Briefcases
+  name_ja: ビジネスバッグ
+- id: 267
+  parent_id: 256
+  level: 3
+  name_en: Others
+  name_ja: その他
+- id: 268
+  parent_id: 199
+  level: 2
+  name_en: Suits
+  name_ja: スーツ
+- id: 269
+  parent_id: 268
+  level: 3
+  name_en: Blazers
+  name_ja: スーツジャケット
+- id: 270
+  parent_id: 268
+  level: 3
+  name_en: Vests
+  name_ja: スーツベスト
+- id: 271
+  parent_id: 268
+  level: 3
+  name_en: Trousers
+  name_ja: スラックス/スーツパンツ
+- id: 272
+  parent_id: 268
+  level: 3
+  name_en: Suits
+  name_ja: セットアップ
+- id: 273
+  parent_id: 268
+  level: 3
+  name_en: Others
+  name_ja: その他
+- id: 274
+  parent_id: 199
+  level: 2
+  name_en: Mens' Hats
+  name_ja: メンズ 帽子
+- id: 275
+  parent_id: 274
+  level: 3
+  name_en: Caps
+  name_ja: キャップ
+- id: 276
+  parent_id: 274
+  level: 3
+  name_en: Knitted hats / beanies
+  name_ja: ニット帽/ビーニー
+- id: 277
+  parent_id: 274
+  level: 3
+  name_en: Hats
+  name_ja: ハット
+- id: 278
+  parent_id: 274
+  level: 3
+  name_en: Hunting caps & berets
+  name_ja: ハンチング/ベレー帽
+- id: 279
+  parent_id: 274
+  level: 3
+  name_en: Casquettes
+  name_ja: キャスケット
+- id: 280
+  parent_id: 274
+  level: 3
+  name_en: Straw hats
+  name_ja: 麦わら帽子/ストローハット
+- id: 281
+  parent_id: 274
+  level: 3
+  name_en: Others
+  name_ja: その他
+- id: 282
+  parent_id: 199
+  level: 2
+  name_en: Mens' Jewelry
+  name_ja: メンズ アクセサリー
+- id: 283
+  parent_id: 282
+  level: 3
+  name_en: Necklaces
+  name_ja: ネックレス
+- id: 284
+  parent_id: 282
+  level: 3
+  name_en: Earrings
+  name_ja: イヤリング / ピアス
+- id: 285
+  parent_id: 282
+  level: 3
+  name_en: Rings
+  name_ja: リング(指輪)
+- id: 286
+  parent_id: 282
+  level: 3
+  name_en: Bracelets & wristbands
+  name_ja: ブレスレット/リストバンド
+- id: 287
+  parent_id: 282
+  level: 3
+  name_en: Anklets
+  name_ja: アンクレット
+- id: 288
+  parent_id: 282
+  level: 3
+  name_en: Others
+  name_ja: その他
+- id: 289
+  parent_id: 199
+  level: 2
+  name_en: Mens' Accesories
+  name_ja: メンズ ファッション小物
+- id: 290
+  parent_id: 289
+  level: 3
+  name_en: Wallets
+  name_ja: 財布
+- id: 291
+  parent_id: 289
+  level: 3
+  name_en: Money clips
+  name_ja: マネークリップ
+- id: 292
+  parent_id: 289
+  level: 3
+  name_en: Coin purses
+  name_ja: コインケース/小銭入れ
+- id: 293
+  parent_id: 289
+  level: 3
+  name_en: Card holders
+  name_ja: 名刺入れ/定期入れ
+- id: 294
+  parent_id: 289
+  level: 3
+  name_en: Key cases
+  name_ja: キーケース
+- id: 295
+  parent_id: 289
+  level: 3
+  name_en: Key holders
+  name_ja: キーホルダー
+- id: 296
+  parent_id: 289
+  level: 3
+  name_en: Ties
+  name_ja: ネクタイ
+- id: 297
+  parent_id: 289
+  level: 3
+  name_en: Gloves
+  name_ja: 手袋
+- id: 298
+  parent_id: 289
+  level: 3
+  name_en: Handkerchieves
+  name_ja: ハンカチ/ポケットチーフ
+- id: 299
+  parent_id: 289
+  level: 3
+  name_en: Belts
+  name_ja: ベルト
+- id: 300
+  parent_id: 289
+  level: 3
+  name_en: Scarves
+  name_ja: マフラー
+- id: 301
+  parent_id: 289
+  level: 3
+  name_en: Stoles
+  name_ja: ストール
+- id: 302
+  parent_id: 289
+  level: 3
+  name_en: Bandanas
+  name_ja: バンダナ/スカーフ
+- id: 303
+  parent_id: 289
+  level: 3
+  name_en: Neck warmers
+  name_ja: ネックウォーマー
+- id: 304
+  parent_id: 289
+  level: 3
+  name_en: Suspenders
+  name_ja: サスペンダー
+- id: 305
+  parent_id: 289
+  level: 3
+  name_en: Wallet chains
+  name_ja: ウォレットチェーン
+- id: 306
+  parent_id: 289
+  level: 3
+  name_en: Glasses / Sunglasses
+  name_ja: サングラス/メガネ
+- id: 307
+  parent_id: 289
+  level: 3
+  name_en: Notebooks
+  name_ja: 手帳
+- id: 308
+  parent_id: 289
+  level: 3
+  name_en: Tie pin
+  name_ja: ネクタイピン
+- id: 309
+  parent_id: 289
+  level: 3
+  name_en: Cufflinks
+  name_ja: カフリンクス
+- id: 310
+  parent_id: 289
+  level: 3
+  name_en: Earmuffs
+  name_ja: イヤマフラー
+- id: 311
+  parent_id: 289
+  level: 3
+  name_en: Umbrellas
+  name_ja: 傘
+- id: 312
+  parent_id: 289
+  level: 3
+  name_en: Pocket mirrors
+  name_ja: ミラー
+- id: 313
+  parent_id: 289
+  level: 3
+  name_en: Others
+  name_ja: その他
+- id: 314
+  parent_id: 199
+  level: 2
+  name_en: Mens' Watches
+  name_ja: メンズ 時計
+- id: 315
+  parent_id: 314
+  level: 3
+  name_en: Analog wristwatches
+  name_ja: 腕時計(アナログ)
+- id: 316
+  parent_id: 314
+  level: 3
+  name_en: Digital wristwatches
+  name_ja: 腕時計(デジタル)
+- id: 317
+  parent_id: 314
+  level: 3
+  name_en: Rubber bands
+  name_ja: ラバーベルト
+- id: 318
+  parent_id: 314
+  level: 3
+  name_en: Leather bands
+  name_ja: レザーベルト
+- id: 339
+  parent_id: 314
+  level: 3
+  name_en: Metallic bands
+  name_ja: 金属ベルト
+- id: 319
+  parent_id: 314
+  level: 3
+  name_en: Others
+  name_ja: その他
+- id: 320
+  parent_id: 199
+  level: 2
+  name_en: Mens' Japanese traditional clothing
+  name_ja: メンズ 着物/浴衣
+- id: 321
+  parent_id: 320
+  level: 3
+  name_en: Yukatas
+  name_ja: 浴衣
+- id: 322
+  parent_id: 320
+  level: 3
+  name_en: Kimonos
+  name_ja: 着物
+- id: 323
+  parent_id: 320
+  level: 3
+  name_en: Kimono accesories
+  name_ja: 和装小物
+- id: 324
+  parent_id: 320
+  level: 3
+  name_en: Yukata obis / sashes
+  name_ja: 浴衣帯
+- id: 325
+  parent_id: 320
+  level: 3
+  name_en: Kimono obis / wide sashes
+  name_ja: 帯
+- id: 326
+  parent_id: 320
+  level: 3
+  name_en: Geta & zori sandals
+  name_ja: 下駄/草履
+- id: 327
+  parent_id: 320
+  level: 3
+  name_en: Others
+  name_ja: その他
+- id: 328
+  parent_id: 199
+  level: 2
+  name_en: Mens' Beachwear
+  name_ja: メンズ ビーチウエア
+- id: 329
+  parent_id: 328
+  level: 3
+  name_en: Swim briefs
+  name_ja: 水着（ビキニパンツ）
+- id: 330
+  parent_id: 328
+  level: 3
+  name_en: Swim shorts
+  name_ja: 水着（ボクサーパンツ）
+- id: 331
+  parent_id: 328
+  level: 3
+  name_en: Others
+  name_ja: その他
+- id: 332
+  parent_id: 199
+  level: 2
+  name_en: Mens' Underwear
+  name_ja: メンズ アンダーウェア
+- id: 333
+  parent_id: 332
+  level: 3
+  name_en: Socks
+  name_ja: 靴下/ソックス
+- id: 334
+  parent_id: 332
+  level: 3
+  name_en: Tights / Compression pants
+  name_ja: レギンス/スパッツ
+- id: 335
+  parent_id: 332
+  level: 3
+  name_en: Trunks
+  name_ja: トランクス
+- id: 336
+  parent_id: 332
+  level: 3
+  name_en: Boxer briefs
+  name_ja: ボクサーパンツ
+- id: 337
+  parent_id: 332
+  level: 3
+  name_en: Others
+  name_ja: その他
