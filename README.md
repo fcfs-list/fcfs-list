@@ -22,11 +22,9 @@ $ docker-compose up -d --build
  ⠿ Container kashikally-backend-1   Started                                                                  0.5s
 ```
 
-2. Access the webpage from [http://localhost:8080/](http://localhost:8080/)
+2. You can check the API documentation and test it from [http://localhost:8000/docs](http://localhost:8000/docs)
 
-3. You can also check the API documentation and test it from [http://localhost:5000/docs](http://localhost:5000/docs)
-
-4. You can access the admin site from [http://localhost:8000/admin/](http://localhost:8000/admin/)
+3. You can access the admin site from [http://localhost:8000/admin/](http://localhost:8000/admin/)
 
 
 ## Next steps
