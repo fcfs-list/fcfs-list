@@ -1,14 +1,20 @@
-from typing import Any
 from decimal import Decimal
-
 from random import choice
-import babel.numbers as bn
+from typing import Any
 
-from pydantic_factories import ModelFactory, Use, SyncPersistenceProtocol, AsyncPersistenceProtocol
+from babel import numbers as bn
 
-from app.models import User, Product
+from app.models import Product, User
+from pydantic_factories import (
+    AsyncPersistenceProtocol,
+    ModelFactory,
+    SyncPersistenceProtocol,
+    Use,
+)
+
 
 CURRENCIES = list(bn.list_currencies())
+
 
 class SyncPersistenceHandler(SyncPersistenceProtocol):
     def save(self, data: Any, *args: Any, **kwargs: Any) -> Any:
@@ -34,16 +40,16 @@ class FactoryBase(ModelFactory):
 class UserFactory(FactoryBase):
     __model__ = User
 
-    name = 'Placeholder'
-    email = 'placeholder@email.com'
+    name = "Placeholder"
+    email = "placeholder@email.com"
 
 
 class ProductFactory(FactoryBase):
     __model__ = Product
 
-    user_id = Use(choice, list(range(1, 51)))
-    title = 'Placeholder'
-    description = 'Placeholder'
+    user_id = Use(choice, list(range(1, 6)))
+    title = "Placeholder"
+    description = "Placeholder"
     price = Use(choice, [Decimal(i) for i in range(0, 50000)])
     currency = Use(choice, CURRENCIES)
     brand_id = Use(choice, list(range(1, 8195)))

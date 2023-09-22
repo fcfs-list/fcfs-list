@@ -4,26 +4,42 @@ services:
 
   backend:
     build: ./project
-    command:  bash -c 'while !</dev/tcp/db/5432; do sleep 1; done; alembic upgrade head; uvicorn app.main:app --host 0.0.0.0'
+    command:  bash -c 'while !</dev/tcp/db/${DB_PORT}; do sleep 1; done; alembic upgrade head; uvicorn app.main:app --host 0.0.0.0'
     ports:
       - 8000:8000
     environment:
-      - DATABASE_URL=postgresql+asyncpg://kashikally:kashikally@db:5432/kashikally
+      - DATABASE_URL=postgresql+asyncpg://${DB_USERNAME}:${DB_PASSWORD}@db:${DB_PORT}/${DB_NAME}
+      - AUTH0_DOMAIN=${AUTH0_DOMAIN}
+      - AUTH0_AUDIENCE=${AUTH0_AUDIENCE}
+      - AUTH0_RULE_NAMESPACE=${AUTH0_RULE_NAMESPACE}
+      - GCS_BUCKET=${GCS_BUCKET}
+      - GOOGLE_APPLICATION_CREDENTIALS=/tmp/keys/application_default_credentials.json
+      - GCLOUD_PROJECT=${GCLOUD_PROJECT}
     volumes:
       - ./project:/usr/src/app
+      - ${GOOGLE_APPLICATION_CREDENTIALS}:/tmp/keys/application_default_credentials.json:ro
     depends_on:
       - db
+    networks:
+      - app-network
 
   db:
     image: postgres:13.4
+    ports:
+      - ${DB_PORT}:${DB_PORT}
     expose:
-      - 5432
+      - ${DB_PORT}
     environment:
-      - POSTGRES_USER=kashikally
-      - POSTGRES_PASSWORD=kashikally
-      - POSTGRES_DB=kashikally
+      - POSTGRES_USER=${DB_USERNAME}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - POSTGRES_DB=${DB_NAME}
     volumes:
       - postgres_data:/var/lib/postgresql/data/
+    networks:
+      - app-network
 
 volumes:
   postgres_data:
+
+networks:
+  app-network:

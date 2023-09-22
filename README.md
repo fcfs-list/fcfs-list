@@ -17,7 +17,7 @@ __Installation and usage__
 ```console
 $ docker-compose up -d --build
 
-[+] Running 3/3
+[+] Running 2/2
  ⠿ Container kashikally-db-1        Running                                                                  0.0s
  ⠿ Container kashikally-backend-1   Started                                                                  0.5s
 ```
@@ -31,7 +31,7 @@ $ docker-compose up -d --build
 
 ## Next steps
 
-1. Complete API endpoint implementation
+1. Add Github Actions
 
 2. Implement unit tests
 
