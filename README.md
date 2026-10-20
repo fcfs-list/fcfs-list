@@ -36,7 +36,13 @@ The data model and API support matches and queue ordering, but in the current co
 
 ### Configure environment
 
-Docker Compose reads variables from a root-level `.env` file. Create or update that file locally; do not commit credentials. The compose configuration uses these variables:
+Docker Compose reads variables from a root-level `.env` file. Start with the example and replace its placeholder values with your local configuration:
+
+```sh
+cp .env.example .env
+```
+
+Do not commit `.env` or credential files. The compose configuration uses these variables:
 
 | Variable | Purpose |
 | --- | --- |
