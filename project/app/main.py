@@ -50,10 +50,9 @@ from .routers import (
     images,
 )
 
-
 app = FastAPI()
 
-app_router = APIRouter(prefix='/v1')
+app_router = APIRouter(prefix="/v1")
 
 
 # app.add_middleware(
@@ -67,86 +66,86 @@ app_router = APIRouter(prefix='/v1')
 # Iclude routers for APIs
 app_router.include_router(
     categories.router,
-    tags=['categories'],
-    prefix='/categories',
-    responses={HTTP_404_NOT_FOUND: {'description': 'Not found'}},
+    tags=["categories"],
+    prefix="/categories",
+    responses={HTTP_404_NOT_FOUND: {"description": "Not found"}},
 )
 app_router.include_router(
     areas.router,
-    tags=['areas'],
-    prefix='/areas',
-    responses={HTTP_404_NOT_FOUND: {'description': 'Not found'}},
+    tags=["areas"],
+    prefix="/areas",
+    responses={HTTP_404_NOT_FOUND: {"description": "Not found"}},
 )
 app_router.include_router(
     brands.router,
-    tags=['brands'],
-    prefix='/brands',
-    responses={HTTP_404_NOT_FOUND: {'description': 'Not found'}},
+    tags=["brands"],
+    prefix="/brands",
+    responses={HTTP_404_NOT_FOUND: {"description": "Not found"}},
 )
 app_router.include_router(
     products.router,
-    tags=['products'],
-    prefix='/products',
-    responses={HTTP_404_NOT_FOUND: {'description': 'Not found'}},
+    tags=["products"],
+    prefix="/products",
+    responses={HTTP_404_NOT_FOUND: {"description": "Not found"}},
 )
 app_router.include_router(
     comments.router,
-    tags=['comments'],
-    prefix='/comments',
-    responses={HTTP_404_NOT_FOUND: {'description': 'Not found'}},
+    tags=["comments"],
+    prefix="/comments",
+    responses={HTTP_404_NOT_FOUND: {"description": "Not found"}},
 )
 app_router.include_router(
     likes.router,
-    tags=['likes'],
-    prefix='/likes',
-    responses={HTTP_404_NOT_FOUND: {'description': 'Not found'}},
+    tags=["likes"],
+    prefix="/likes",
+    responses={HTTP_404_NOT_FOUND: {"description": "Not found"}},
 )
 app_router.include_router(
     matches.router,
-    tags=['matches'],
-    prefix='/matches',
-    responses={HTTP_404_NOT_FOUND: {'description': 'Not found'}},
+    tags=["matches"],
+    prefix="/matches",
+    responses={HTTP_404_NOT_FOUND: {"description": "Not found"}},
 )
 app_router.include_router(
     match_messages.router,
-    tags=['match_messages', 'matchmessages'],
-    prefix='/matchmessages',
-    responses={HTTP_404_NOT_FOUND: {'description': 'Not found'}},
+    tags=["match_messages", "matchmessages"],
+    prefix="/matchmessages",
+    responses={HTTP_404_NOT_FOUND: {"description": "Not found"}},
 )
 app_router.include_router(
     offers.router,
-    tags=['offers'],
-    prefix='/offers',
-    responses={HTTP_404_NOT_FOUND: {'description': 'Not found'}},
+    tags=["offers"],
+    prefix="/offers",
+    responses={HTTP_404_NOT_FOUND: {"description": "Not found"}},
 )
 app_router.include_router(
     transactions.router,
-    tags=['transactions'],
-    prefix='/transactions',
-    responses={HTTP_404_NOT_FOUND: {'description': 'Not found'}},
+    tags=["transactions"],
+    prefix="/transactions",
+    responses={HTTP_404_NOT_FOUND: {"description": "Not found"}},
 )
 app_router.include_router(
     transaction_messages.router,
-    tags=['transaction_messages', 'transactionmessages'],
-    prefix='/transactionmessages',
-    responses={HTTP_404_NOT_FOUND: {'description': 'Not found'}},
+    tags=["transaction_messages", "transactionmessages"],
+    prefix="/transactionmessages",
+    responses={HTTP_404_NOT_FOUND: {"description": "Not found"}},
 )
 app_router.include_router(
     wishes.router,
-    tags=['wishes'],
-    prefix='/wishes',
-    responses={HTTP_404_NOT_FOUND: {'description': 'Not found'}},
+    tags=["wishes"],
+    prefix="/wishes",
+    responses={HTTP_404_NOT_FOUND: {"description": "Not found"}},
 )
 app_router.include_router(
     users.router,
-    tags=['users'],
-    prefix='/users',
-    responses={HTTP_404_NOT_FOUND: {'description': 'Not found'}},
+    tags=["users"],
+    prefix="/users",
+    responses={HTTP_404_NOT_FOUND: {"description": "Not found"}},
 )
 app_router.include_router(
     images.router,
-    tags=['images'],
-    responses={HTTP_404_NOT_FOUND: {'description': 'Not found'}},
+    tags=["images"],
+    responses={HTTP_404_NOT_FOUND: {"description": "Not found"}},
 )
 
 app.include_router(app_router)
@@ -157,18 +156,18 @@ app.include_router(app_router)
 async def validation_error_exception_handler(request: Request, exc: ValueError):
     return JSONResponse(
         status_code=HTTP_400_BAD_REQUEST,
-        content={'message': str(exc)},
+        content={"message": str(exc)},
     )
 
 
 # Create AdminSite instance
-site = AdminSite(settings=Settings(database_url_async=os.environ.get('DATABASE_URL')))
+site = AdminSite(settings=Settings(database_url_async=os.environ.get("DATABASE_URL")))
 
 
 # Register ModelAdmin
 @site.register_admin
 class AreaAdmin(admin.ModelAdmin):
-    page_schema = 'Area Management'
+    page_schema = "Area Management"
     # Configuration management model
     model = Area
     list_display = [
@@ -190,7 +189,7 @@ class AreaAdmin(admin.ModelAdmin):
 
 @site.register_admin
 class BrandAdmin(admin.ModelAdmin):
-    page_schema = 'Brand Management'
+    page_schema = "Brand Management"
     # Configuration management model
     model = Brand
     list_display = [Brand.name_en, Brand.name_ja]
@@ -199,7 +198,7 @@ class BrandAdmin(admin.ModelAdmin):
 
 @site.register_admin
 class CategoryAdmin(admin.ModelAdmin):
-    page_schema = 'Category Management'
+    page_schema = "Category Management"
     # Configuration management model
     model = Category
     list_display = [
@@ -215,7 +214,7 @@ class CategoryAdmin(admin.ModelAdmin):
 
 @site.register_admin
 class CommentAdmin(admin.ModelAdmin):
-    page_schema = 'Comment Management'
+    page_schema = "Comment Management"
     # Configuration management model
     model = Comment
     list_display = [
@@ -237,7 +236,7 @@ class CommentAdmin(admin.ModelAdmin):
 
 @site.register_admin
 class ImageAdmin(admin.ModelAdmin):
-    page_schema = 'Image Management'
+    page_schema = "Image Management"
     # Configuration management model
     model = Image
     list_display = [Image.url, Image.product_id, Product.title]
@@ -251,7 +250,7 @@ class ImageAdmin(admin.ModelAdmin):
 
 @site.register_admin
 class LikeAdmin(admin.ModelAdmin):
-    page_schema = 'Like Management'
+    page_schema = "Like Management"
     # Configuration management model
     model = Like
     list_display = [User.name, Product.title, Like.user_id, Like.product_id]
@@ -267,7 +266,7 @@ class LikeAdmin(admin.ModelAdmin):
 
 @site.register_admin
 class MatchAdmin(admin.ModelAdmin):
-    page_schema = 'Match Management'
+    page_schema = "Match Management"
     # Configuration management model
     model = Match
     list_display = [
@@ -292,7 +291,7 @@ class MatchAdmin(admin.ModelAdmin):
 
 @site.register_admin
 class MatchMessageAdmin(admin.ModelAdmin):
-    page_schema = 'MatchMessage Management'
+    page_schema = "MatchMessage Management"
     # Configuration management model
     model = MatchMessage
     list_display = [
@@ -311,7 +310,7 @@ class MatchMessageAdmin(admin.ModelAdmin):
 
 @site.register_admin
 class OfferAdmin(admin.ModelAdmin):
-    page_schema = 'Offer Management'
+    page_schema = "Offer Management"
     # Configuration management model
     model = Offer
     list_display = [
@@ -337,7 +336,7 @@ class OfferAdmin(admin.ModelAdmin):
 
 @site.register_admin
 class ProductAreaAdmin(admin.ModelAdmin):
-    page_schema = 'ProductArea Management'
+    page_schema = "ProductArea Management"
     # Configuration management model
     model = ProductArea
     list_display = [
@@ -359,7 +358,7 @@ class ProductAreaAdmin(admin.ModelAdmin):
 
 @site.register_admin
 class ProductCategoryAdmin(admin.ModelAdmin):
-    page_schema = 'ProductCategory Management'
+    page_schema = "ProductCategory Management"
     # Configuration management model
     model = ProductCategory
     list_display = [
@@ -381,7 +380,7 @@ class ProductCategoryAdmin(admin.ModelAdmin):
 
 @site.register_admin
 class ProductAdmin(admin.ModelAdmin):
-    page_schema = 'Product Management'
+    page_schema = "Product Management"
     # Configuration management model
     model = Product
     list_display = [
@@ -423,7 +422,7 @@ class ProductAdmin(admin.ModelAdmin):
 
 @site.register_admin
 class TransactionAdmin(admin.ModelAdmin):
-    page_schema = 'Transaction Management'
+    page_schema = "Transaction Management"
     # Configuration management model
     model = Transaction
     list_display = [
@@ -445,7 +444,7 @@ class TransactionAdmin(admin.ModelAdmin):
 
 @site.register_admin
 class TransactionMessageAdmin(admin.ModelAdmin):
-    page_schema = 'TransactionMessage Management'
+    page_schema = "TransactionMessage Management"
     # Configuration management model
     model = TransactionMessage
     list_display = [
@@ -464,7 +463,7 @@ class TransactionMessageAdmin(admin.ModelAdmin):
 
 @site.register_admin
 class UserAreaAdmin(admin.ModelAdmin):
-    page_schema = 'UserArea Management'
+    page_schema = "UserArea Management"
     # Configuration management model
     model = UserArea
     list_display = [
@@ -486,7 +485,7 @@ class UserAreaAdmin(admin.ModelAdmin):
 
 @site.register_admin
 class UserAdmin(admin.ModelAdmin):
-    page_schema = 'User Management'
+    page_schema = "User Management"
     # Configuration management model
     model = User
     list_display = [User.name, User.email, User.phone, User.is_admin]
@@ -495,7 +494,7 @@ class UserAdmin(admin.ModelAdmin):
 
 @site.register_admin
 class WishAreaAdmin(admin.ModelAdmin):
-    page_schema = 'WishArea Management'
+    page_schema = "WishArea Management"
     # Configuration management model
     model = WishArea
     list_display = [Area.name_en, Area.name_ja, WishArea.area_id, WishArea.wish_id]
@@ -509,7 +508,7 @@ class WishAreaAdmin(admin.ModelAdmin):
 
 @site.register_admin
 class WishBrandAdmin(admin.ModelAdmin):
-    page_schema = 'WishBrand Management'
+    page_schema = "WishBrand Management"
     # Configuration management model
     model = WishBrand
     list_display = [Brand.name_en, Brand.name_ja, WishBrand.brand_id, WishBrand.wish_id]
@@ -523,7 +522,7 @@ class WishBrandAdmin(admin.ModelAdmin):
 
 @site.register_admin
 class WishCategoryAdmin(admin.ModelAdmin):
-    page_schema = 'WishCategory Management'
+    page_schema = "WishCategory Management"
     # Configuration management model
     model = WishCategory
     list_display = [
@@ -542,7 +541,7 @@ class WishCategoryAdmin(admin.ModelAdmin):
 
 @site.register_admin
 class WishAdmin(admin.ModelAdmin):
-    page_schema = 'Wish Management'
+    page_schema = "Wish Management"
     # Configuration management model
     model = Wish
     list_display = [Wish.keywords, Wish.user_id, User.name]
@@ -559,6 +558,6 @@ site.mount_app(app)
 
 
 # Default endpoint, just to confirm the API works correctly
-@app.get('/')
+@app.get("/")
 async def home():
-    return 'Welcome to Kashikally API!'
+    return "Welcome to FCFS-List API!"
